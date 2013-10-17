@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('../img/norwegian_rose_ltblue.png');
+	font-family: 'Georgia', serif;
+}
+
+#container {
+	background-color: white;
+	box-shadow: 0px 0px 40px 12px #777777;
+	margin: 0 auto;
+	max-width: 850px;
+	min-width: 650px;
+	width: 75%;
+}
+
+header {
+	background-color: black;
+	background-image: url('../img/HOC_art.png');
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+
+	.header-left {
+		float: left;
+		width: 67%;
+	}
+
+		h1#logo {
+			border-right: 1px white solid;
+			margin: 35px 0 0 115px;
+		}
+		
+			h1#logo a {
+			background-image: url(../img/HOC_name.png);
+			background-repeat: no-repeat;
+			background-position: top left;
+			border: none;
+			display: block;
+			height: 80px;
+			text-indent: -9999px;
+			width: 267px;
+			}
+
+	.header-right {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		color: white;
+		float: right;
+		padding-left: 10%;
+		padding-top: 35px;
+		width: 33%;
+	}
+
+nav {
+	background: #2e3092; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2e3092 0%, #cbcced 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e3092), color-stop(100%,#cbcced)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2e3092 0%,#cbcced 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2e3092 0%,#cbcced 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2e3092 0%,#cbcced 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2e3092 0%,#cbcced 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3092', endColorstr='#cbcced',GradientType=0 ); /* IE6-9 */
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: white;
+	height: 50px;
+	padding-top: 15px;
+}
+
+	nav a {
+		color: white;
+		font-weight: 800;
+		text-decoration: none;
+	}
+
+	nav a:hover {
+		color: black;
+		text-decoration: underline;
+	}
+
+	nav ul {
+		list-style-type: none;
+	}
+
+		nav ul li {
+			float: left;
+			width: 33%;
+			text-align: center;
+		}
+
+		nav ul li:hover > ul {
+			display: block;
+		}
+
+		nav ul li:hover:before {
+			content: url('../img/tassle.png');
+		}
+
+			nav ul ul {
+				display: none;
+				position: absolute;
+				width: 33%;
+			}
+
+				nav ul li ul li {
+					background-color: white;
+					float: none;
+					width: 60%;
+				}
+
+				nav ul li ul li a {
+					color: black;
+				}
+
+
+.clear {
+	clear: both;
+}
