@@ -67,7 +67,7 @@ header {
 		}
 		
 			h1#logo a {
-			background-image: url(../img/HOC_name.png);
+			background-image: url('../img/HOC_name2.png');
 			background-repeat: no-repeat;
 			background-position: top left;
 			border: none;
@@ -83,10 +83,14 @@ header {
 		color: white;
 		float: right;
 		font-size: 18px;
-		padding-left: 10%;
+		padding-left: 5%;
 		padding-top: 35px;
 		width: 33%;
 	}
+
+		.header-right p {
+			margin: 0;
+		}
 
 nav {
 	background: #2e3092; /* Old browsers */
@@ -185,6 +189,7 @@ nav {
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		float: left;
+		margin-bottom: 30px;
 		padding: 50px 20px;
 		width: 50%;
 	}
