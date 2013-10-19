@@ -79,7 +79,7 @@ nav {
 	}
 
 	nav a:hover {
-		color: black;
+		/*color: black;*/
 		text-decoration: underline;
 	}
 
@@ -89,32 +89,43 @@ nav {
 
 		nav ul li {
 			float: left;
-			width: 33%;
+			padding-bottom: 17px;
 			text-align: center;
+			width: 33%;
 		}
 
 		nav ul li:hover > ul {
 			display: block;
 		}
 
-		nav ul li:hover:before {
+/*		nav ul li a:hover:before {
 			content: url('../img/tassle.png');
-		}
+			vertical-align: -58%;
+		}*/
 
 			nav ul ul {
+				background-color: rgba(203,204,237,0.6);
+				border-left: 2px solid #2e3092;
+				border-right: 2px solid #2e3092;
+				border-bottom: 2px solid #2e3092;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
 				display: none;
+				margin-left: 35px;
+				margin-top: 17px;
+				padding: 5px 0 5px 0;
 				position: absolute;
-				width: 33%;
+				width: 15%;
 			}
 
 				nav ul li ul li {
-					background-color: white;
 					float: none;
-					width: 60%;
+					padding: 10px 0 10px 0;
+					width: 98%;
 				}
 
-				nav ul li ul li a {
-					color: black;
+				nav ul li ul li:first-child {
+					border-bottom: 1px solid white;
 				}
 
 
