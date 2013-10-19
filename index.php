@@ -49,7 +49,7 @@
 	<div id="container">
 		<header>
 			<div class="header-left">
-				<h1 id="logo"><a href="?p='home'">Hint of Class Consignment</a></h1>
+				<h1 id="logo"><a href="?p=home">Hint of Class Consignment</a></h1>
 			</div> <!-- end head-left-->
 			<div class="header-right">
 				<p>72 Hosmer St., </p>
