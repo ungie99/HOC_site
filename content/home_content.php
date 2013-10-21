@@ -9,5 +9,5 @@
 	<img src="img/placeholder/sb10064735ac-001.jpg" class="white-border">
 	<img src="img/placeholder/200181869-002.jpg" class="white-border">
 
-</div><!-- end main-right -->
+</div> --><!-- end main-right -->
 <div class="clear"></div>

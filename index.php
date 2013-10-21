@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 	error_reporting(0);
 
@@ -36,10 +37,11 @@
 	}
 
 ?>
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Hint of Class Consignment, Marlboro, MA | <?php echo $title; ?></title>
+	<meta charset="UTF-8">
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 	<link href='http://fonts.googleapis.com/css?family=Redressed' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
