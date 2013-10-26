@@ -1,13 +1,24 @@
 <div class="main-left">
 	<h2>Hint of Class Consignment</h2>
 	<h3>New and Gently Used Women's Apparel, Men's Apparel, Furniture, Home Decor and Accessories</h3>
-	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed <a href="#">diam nonummy</a> nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	<p> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+	<p>Hint of Class Sells:</p>
+	<ul>
+		<li>Women’s clothing</li>
+		<li>Handbags and accessories</li>
+		<li>Hats, shoes and boots</li>
+		<li>Jewelry</li>
+		<li>Men’s clothing</li>
+		<li>Shoes and accessories</li>
+		<li>Household furniture</li>
+		<li>Glassware</li>
+		<li>Pictures and household accessories</li>
+	</ul>
+	<p>Proudly offering designer name brands, such as Michael Kors, Liz Claiborne, Ann Taylor, LOFT, Banana Republic, Tahari, Anthropologie, J.Crew, J.Jill, Coach, Burberry, Prada, Dooney &amp; Bourke, Perry Ellis, Polo by Ralph Lauren, Calvin Klein, and IZOD</p>
 </div><!-- end main-left -->
 <div class="main-right">
 	<img src="img/placeholder/166892880.jpg" class="white-border">
 	<img src="img/placeholder/sb10064735ac-001.jpg" class="white-border">
 	<img src="img/placeholder/200181869-002.jpg" class="white-border">
 
-</div> --><!-- end main-right -->
+</div> <!-- end main-right -->
 <div class="clear"></div>
